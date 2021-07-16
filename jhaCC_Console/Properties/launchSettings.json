@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "jhaCC_Console": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
