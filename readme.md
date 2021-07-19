@@ -32,7 +32,7 @@ Your twitter bearer token must be placed in appsettings.json (/jhaCC_Console/app
 - Services
   - Distiller
     - _IMessageDistiller.cs_ - interface exposing method DistillMessageAsync and ConsumeMessageAsync.
-    - _IMessageDistillerTwitter.cs_ - implentation of IMessageDistiller for twitter feed
+    - _MessageDistillerTwitter.cs_ - implentation of IMessageDistiller for twitter feed
   - Monitor
     - _IMessageMonitor.cs_ - interface exposing method RetrieveMessagesAsync - used to retrieve messages in whatever manner you see fit
     - _MessageMonitorBackgroundService.cs_ - BackgroundService.  Expects IMessageMonitor instance injected and will process via RetrieveMessagesAsync()
