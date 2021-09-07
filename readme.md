@@ -1,4 +1,4 @@
-# A Code Exercise using .Net Core 3.1 and Twiter API
+# A Code Exercise using .Net Core 3.1 and Twitter API
 
 In a nutshell, gather some stats from a sample of the twitter stream via the [Sampled stream API](https://developer.twitter.com/en/docs/twitter-api/tweets/sampled-stream/introduction).
 
